@@ -30,6 +30,7 @@ const PasswordValidation = () => {
   return (
     <div>
         <div>
+            <h2 className='font-bold ml-2'>Q.Create an input box that only allows numbers (0-9). If the user types a letter, show an error message.</h2>
             <input type='text' className='border border-black m-2 p-2' value={input} onChange={handleChange}/>
             {error && <p>Enter value between 0 - 9</p>}
         </div>
